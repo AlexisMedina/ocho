@@ -39,7 +39,7 @@ element.innerHTML = 'Aceleracion en X: ' + acceleration.x + '<br />' +
 'Intervalo: '      + acceleration.timestamp + '<br />';
 }
 
-/Error: Falla al obtener la aceleracion
+//Error: Falla al obtener la aceleracion
 function Error() { 
 alert('Error!');
 }
@@ -53,7 +53,7 @@ element.innerHTML= 'Latitud: '       + posicion.coords.latitude      + '<br />' 
 'Precision de Altitud: '       + posicion.coords.altitudeAccuracy      + '<br />' +
 'Direccion: '       + posicion.coords.heading      + '<br />' +
 'Velocidad: '       + posicion.coords.speed      + '<br />' +
-'Intervalo: '       + posicion.coords.timestamp      + '<br />' +;
+'Intervalo: '       + posicion.timestamp      + '<br />' ;
 }
 //Error en la geolocalizacion
 function ErrorLocalizacion(error) { 

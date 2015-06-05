@@ -23,7 +23,7 @@ navigator.geolocation.getCurrentPosition(Localiza, ErrorLocalizacion);
 //Detiene la 'observacion' de la aceleracion
 
 function Detente() { 
-if (wacthID) {
+if (watchID) {
 navigator.accelerometer.clearWatch(watchID);
 watchID= null;
 }
